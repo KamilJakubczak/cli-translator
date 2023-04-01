@@ -1,6 +1,6 @@
 from abc import ABC
-from CambridgeDictionary.cambridge_translator_factory import CambridgeTranslatorFactory
-from factory import TranslatorFactory
+from .CambridgeDictionary.cambridge_translator_factory import CambridgeTranslatorFactory
+from .factory import TranslatorFactory
 
 class EngineFoctory(ABC):
 

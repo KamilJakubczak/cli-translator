@@ -1,5 +1,5 @@
 from abc import ABC
-from translator import Translator
+from .translator import Translator
 
 
 class TranslatorFactory(ABC):

@@ -1,8 +1,8 @@
 import click
-from context import ContextTranslator
-from CambridgeDictionary.cambridge_translator_factory import CambridgeTranslatorFactory
-from engine import ConcreteEngineFactory
-from errors import AppError
+from .context import ContextTranslator
+from .CambridgeDictionary.cambridge_translator_factory import CambridgeTranslatorFactory
+from .engine import ConcreteEngineFactory
+from .errors import AppError
 
 def save_html(html):
     with open('html.html', 'w+') as f:

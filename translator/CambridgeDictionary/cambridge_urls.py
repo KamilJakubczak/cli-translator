@@ -1,4 +1,4 @@
-from url_generator import UrlGenerator
+from translator.url_generator import UrlGenerator
 
 
 class CambridgeEngPolUrlGenerator(UrlGenerator):

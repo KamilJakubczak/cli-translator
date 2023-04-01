@@ -1,9 +1,9 @@
 
-from CambridgeDictionary.cambridge_parser import DefinitionParse, TranslationParse
-from CambridgeDictionary.cambridge_urls import CambridgeDefUrlGenerator, CambridgeEngGerUrlGenerator, CambridgeEngPolUrlGenerator
-from CambridgeDictionary.cambridge_translator import CambridgeTranslator
-from factory import TranslatorFactory
-from translator import Translator
+from .cambridge_parser import DefinitionParse, TranslationParse
+from .cambridge_urls import CambridgeDefUrlGenerator, CambridgeEngGerUrlGenerator, CambridgeEngPolUrlGenerator
+from .cambridge_translator import CambridgeTranslator
+from translator.factory import TranslatorFactory
+from translator.translator import Translator
 
 
 class CambridgeTranslatorFactory(TranslatorFactory):

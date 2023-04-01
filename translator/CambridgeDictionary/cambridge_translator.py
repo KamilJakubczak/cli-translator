@@ -1,7 +1,7 @@
-from fetcher import get_html
-from url_generator import UrlGenerator
-from parser import HtmlParser
-from translator import Translator
+from translator.fetcher import get_html
+from translator.url_generator import UrlGenerator
+from translator.parser import HtmlParser
+from translator.translator import Translator
 
 
 class CambridgeTranslator(Translator):

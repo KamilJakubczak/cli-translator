@@ -1,5 +1,5 @@
-from parser import HtmlParser
-from errors import AppError
+from translator.parser import HtmlParser
+from translator.errors import AppError
 
 
 class TranslationParse(HtmlParser):

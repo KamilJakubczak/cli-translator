@@ -1,4 +1,4 @@
-from translator import Translator
+from .translator import Translator
 
 
 class ContextTranslator:
